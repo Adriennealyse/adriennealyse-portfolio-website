@@ -77,8 +77,8 @@ body {
     margin: 0 0 var(--header-height) 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: var(--normal-font-size);
-    background-color: black;
-    color: white;
+    /* background-color: black; */
+    color: black;
 
 }
 
@@ -658,10 +658,10 @@ img {
 .services_content {
     position: relative;
     /* background-color: var(--container-color); */
-    background-color: gray;
+    background-color: pink;
     padding: 3.5rem .5rem 1.25rem 1.5rem;
     border-radius: .25rem;
-    box-shadow: 0 2px 4px rgb(182, 146, 146);
+    box-shadow: 0 2px 4px rgb(199, 195, 195);
     transition: .3s;
 }
 
@@ -859,5 +859,126 @@ img {
 
 /* ==================== CONTACT ME ==================== */
 
+.contact_container {
+    row-gap: 2rem;
+}
+
+.contact_information {
+   display: flex;
+    margin-bottom: var(--mb-2);
+}
+
+.contact_icon {
+    font-size: 2rem;
+    /* color: var(--first-color); */
+    color: palevioletred;
+    margin-right: var(--mb-0-75);
+}
+
+.contact_title {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+}
+
+.contact_subtitle {
+    font-size: var(--small-font-size);
+    /* color: var(--text-color-light); */
+    color: gray;
+
+}
+
+.contact_content {
+    /* background-color: var(--input-color); */
+    background-color: pink;
+    border-radius: .5rem;
+    padding: .75rem 1rem .25rem;
+}
+
+.contact_label {
+    font-size: var(--smaller-font-size);
+    /* color: var(--title-color); */
+    color: white;
+}
+
+.contact_input {
+    width: 100%;
+    /* background-color: var(--input-color); */
+    /* color: var(--text-color); */
+    background-color: pink;
+    color: white;
+    /* font-family: var(--body-font); */
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-size: var(--normal-font-size);
+    border: none;
+    outline: none;
+    padding: .25rem .5rem .5rem 0;
+}
+
 
 /* ==================== FOOTER ==================== */
+
+
+.footer {
+    padding-top: 2rem;
+}
+
+.footer_container {
+    row-gap: 3.5rem;
+}
+
+.footer_bg {
+    /* background-color: var(--first-color-second); */
+    background-color: pink;
+    padding: 2rem 0 3rem;
+}
+
+.footer_title {
+    font-size: var(--h1-font-size);
+    margin-bottom: var(--mb-0-25);
+}
+
+.footer_subtitle {
+    font-size: var(--small-font-size);
+}
+
+.footer_links {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.footer_link:hover {
+    /* color: var(--first-color-lighter); */
+    color: paleturquoise;
+}
+
+.footer_social {
+    font-size: 1.25rem;
+    margin-right: var(--mb-1-5);
+}
+
+.footer_social:hover {
+    /* color: var(--first-color-lighter); */
+    color: paleturquoise;
+}
+
+.footer_copy {
+    font-size: var(--smaller-font-size);
+    text-align: center;
+    /* color: var(--text-color-light); */
+    /* color: gray; */
+    margin-top: var(--mb-3);
+} 
+
+/* .footer_title,
+.footer_subtitle,
+.footer_link,
+.footer_social {
+    color: white;
+} */
+
+
+/* ==================== SCROLL UP ==================== */
+
+
+/* ==================== MEDIA QUERIES ==================== */
