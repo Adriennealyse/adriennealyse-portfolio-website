@@ -413,7 +413,6 @@ img {
 
 .button--small {
     padding: .75rem 1rem;
-
 }
 
 .button--link {
@@ -519,7 +518,7 @@ img {
     padding-left: 2.7rem;
 }
 
-.skills-titles {
+.skills-title {
     display: flex;
     justify-content: space-between;
     margin-bottom: var(--mb-0-5);
@@ -767,11 +766,11 @@ img {
     border-radius: .5rem;
 }
 
-.services_modal-services {
+.services_modal-service {
     row-gap: 1rem;
 }
 
-.services_modal-services {
+.services_modal-service {
     display: flex;
 }
 
