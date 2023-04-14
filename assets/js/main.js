@@ -15,9 +15,9 @@ if (navToggle) {
 }
 
 if(navClose) {
-    navClose.addEventListener('click', () => {
-        navMenu.classList.remove('show-menu')
-    } )
+  navClose.addEventListener('click', () => {
+      navMenu.classList.remove('show-menu')
+  } )
 }
 
 // ==================== REMOVE MOBILE MENU ====================
@@ -25,8 +25,8 @@ if(navClose) {
 const navLink = document.querySelectorAll('.nav-link')
 
 function linkAction() {
-    const navMenu = document.getElementById('nav-menu')
-    navMenu.classList.remove('show-menu')
+  const navMenu = document.getElementById('nav-menu')
+  navMenu.classList.remove('show-menu')
 }
 
 navLink.forEach(n => n.addEventListener('click', linkAction))
